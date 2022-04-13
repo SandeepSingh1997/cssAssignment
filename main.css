@@ -1,0 +1,80 @@
+.flex-container-header{
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: flex-start;
+}
+
+.flex-container-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin:5px;
+}
+
+.flex-item-section{
+    flex-grow: 4;
+    padding: 10px;
+}
+.flex-container-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-item-aside{
+    border:1px black solid;
+    background-color: rgb(50, 50, 50);
+    flex-grow: 2;
+    padding: 10px;
+
+}
+
+.flex-container-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar{
+    flex-grow: 2;
+    
+}
+p{
+    font-size: large;
+}
+
+.white-text{
+    color: white;
+}
+
+.card{
+    border: 2px black solid;
+    width: 250px;
+    margin:5px;
+}
+
+.black-bg{
+    margin: 0px;
+    height: 40px;
+    background-color: rgb(50, 50, 50);
+}
+.padding-10-px{
+    padding: 10px;
+}
+
+.headline{
+    flex-grow: 7;
+    color:white;
+}
+
+a{
+    color: white;
+    margin: 20px;
+
+}
+
+body{
+    border-left: 1px black solid;
+}
